@@ -1,10 +1,7 @@
-* text=auto
-
-*.blade.php diff=html
-*.css diff=css
-*.html diff=html
-*.md diff=markdown
-*.php diff=php
-
-/.github export-ignore
-CHANGELOG.md export-ignore
+*.php linguist-detectable=true
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+*.blade.php linguist-detectable=true
+/public linguist-vendored
+/node_modules linguist-vendored
+/vendor linguist-vendored
